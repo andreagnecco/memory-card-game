@@ -62,7 +62,7 @@ function matchCards(img1, img2) {
         cardOne.classList.add("shake");
         cardTwo.classList.add("shake");
         cardOne.classList.remove("shake", "flip");
-        ßcardTwo.classList.remove("shake", "flip");
+        cardTwo.classList.remove("shake", "flip");
       }, 400);
 
     // these cards didn't match so we'll un-flip them, but let the user see them both before they disappear
